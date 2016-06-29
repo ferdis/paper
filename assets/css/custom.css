@@ -1,0 +1,99 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+body {
+	background-color: #f7f7f7;
+	padding: 60px;
+}
+
+.main {
+	background-color: #FFF;
+	border-radius: 8px;
+	padding: 20px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	border: solid 1px #f3f3f3;
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.split-column {
+	border-right: solid 1px #f3f3f3;
+}
+
+.middle-content {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: #FFF;
+	z-index: 2;
+	position: relative;
+	float: left;
+	left: -76px;
+	top: 55px;
+	line-height: 40px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #33c3f0;
+}
+
+.heading {
+	color: #33c3f0;
+	margin-left: -48px;
+	margin-top: 20px;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.main {
+	padding-bottom: 50px;
+}
+
+hr {
+	border-top-color: #f3f3f3;
+}
+
+hr {
+	border-top-color: #f3f3f3;
+}
+
+hr {
+	border-top-color: #f3f3f3;
+}
+
+hr {
+	border-top-color: #f3f3f3;
+}
+
+hr {
+	border-top-color: #f3f3f3;
+}
+
+.alert-success {
+    color: #0a8754;
+    background-color: rgba(10,135,84,0.13);
+}
+
+.alert {
+    position: relative;
+    padding: 12px 24px;
+    padding-right: 32px;
+    line-height: 24px;
+    font-size: 94%;
+    color: #000000;
+    display: block;
+    font-weight: normal;
+    border-radius: 2px;
+    margin-bottom: 24px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.hidden {
+	display: none;
+}
+

@@ -1,0 +1,8 @@
+server {
+    listen 80;
+    
+    root /vagrant/dev/paper/public;
+    index index.html index.htm;
+
+    server_name paper.dev;
+}

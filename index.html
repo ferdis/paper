@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <title>Paper</title>
+                <link rel="stylesheet" href="assets/css/normalize.css" />
+                <link rel="stylesheet" href="assets/css/skeleton.css" />
+                <link rel="stylesheet" href="assets/css/custom.css" />
+        </head>
+        <body>
+		<div class="container">
+			<div class="main">
+			<div class="row">
+				<div class="twelve columns">
+					<h3 class="center heading">Paper</h3>
+					<hr />
+				</div>
+			</div>
+			<div class="row select-page">
+				<div class="six columns split-column center">
+					<h5>Select Currency</h5>
+
+					<input type="number" min="0.01" step="0.50" name="foreignAmount">
+					<select name="foreignCurrency">
+						<option value="usd">US Dollars (USD)</option>
+						<option value="gbp">British Pound (GBP)</option>
+						<option value="eur">Euro (EUR)</option>
+						<option value="kes">Kenyan Shilling (KES)</option>
+					</select>
+					<br>
+
+					<button class="button button-primary foreignButton">Pay with ZAR</button>
+				</div>
+				<div class="six columns center">
+					<div class="middle-content">OR</div>
+					<h5>Select Amount</h5>
+
+					<div class="prefix-input">
+						<span class="prefix">R</span>
+						<input type="number" min="0.01" step="0.50" name="localAmount">
+						<span class="midfix">to</span>
+						<select name="localCurrency">
+							<option value="usd">US Dollars (USD)</option>
+							<option value="gbp">British Pound (GBP)</option>
+							<option value="eur">Euro (EUR)</option>
+							<option value="kes">Kenyan Shilling (KES)</option>
+						</select>
+					</div>
+
+					<button class="button button-primary localButton">Buy with ZAR</button>
+				</div>
+			</div>
+			<div class="row confirm-page hidden">
+				<div class="twelve columns">
+					<h4 class="center">Order Confirmation #<span class="orderConfirmation">32</span></h4>
+					<div class="alert alert-success">
+						<strong>Success!</strong> Your order has been placed.
+					</div>
+
+					<br>
+
+					<table class="u-full-width">
+						<thead>
+							<tr>
+								<th>Item</th>
+								<th>Value</th>
+							</tr>
+						</thead>
+						<tbody class="summary-body">
+						</tbody>
+					</table>
+					<br>
+					<div class="center">
+						<button class="button goBack">Go Back</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="assets/js/main.js">
+</script>
+        </body>
+</html>
+
